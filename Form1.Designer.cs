@@ -49,6 +49,18 @@ namespace WinFormsApp1
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.button40 = new System.Windows.Forms.Button();
+            this.button39 = new System.Windows.Forms.Button();
+            this.button38 = new System.Windows.Forms.Button();
+            this.button35 = new System.Windows.Forms.Button();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button36 = new System.Windows.Forms.Button();
+            this.button37 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.button34 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
@@ -102,12 +114,14 @@ namespace WinFormsApp1
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.button41 = new System.Windows.Forms.Button();
+            this.button42 = new System.Windows.Forms.Button();
+            this.label23 = new System.Windows.Forms.Label();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.button43 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -299,6 +313,13 @@ namespace WinFormsApp1
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.button43);
+            this.tabPage1.Controls.Add(this.button42);
+            this.tabPage1.Controls.Add(this.label23);
+            this.tabPage1.Controls.Add(this.checkBox3);
+            this.tabPage1.Controls.Add(this.button41);
+            this.tabPage1.Controls.Add(this.label21);
+            this.tabPage1.Controls.Add(this.checkBox2);
             this.tabPage1.Controls.Add(this.tableLayoutPanel3);
             this.tabPage1.Controls.Add(this.tableLayoutPanel1);
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
@@ -316,20 +337,144 @@ namespace WinFormsApp1
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 68F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Controls.Add(this.button40, 3, 2);
+            this.tableLayoutPanel3.Controls.Add(this.button39, 3, 1);
+            this.tableLayoutPanel3.Controls.Add(this.button38, 3, 0);
+            this.tableLayoutPanel3.Controls.Add(this.button35, 2, 0);
             this.tableLayoutPanel3.Controls.Add(this.textBox19, 1, 2);
             this.tableLayoutPanel3.Controls.Add(this.textBox18, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.label18, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.label19, 0, 1);
             this.tableLayoutPanel3.Controls.Add(this.label20, 0, 2);
             this.tableLayoutPanel3.Controls.Add(this.checkBox1, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.button36, 2, 1);
+            this.tableLayoutPanel3.Controls.Add(this.button37, 2, 2);
             this.tableLayoutPanel3.Location = new System.Drawing.Point(360, 23);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 3;
+            this.tableLayoutPanel3.RowCount = 5;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(300, 92);
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(295, 154);
             this.tableLayoutPanel3.TabIndex = 1;
+            // 
+            // button40
+            // 
+            this.button40.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button40.Location = new System.Drawing.Point(252, 80);
+            this.button40.Name = "button40";
+            this.button40.Size = new System.Drawing.Size(37, 25);
+            this.button40.TabIndex = 30;
+            this.button40.Text = "写";
+            this.button40.UseVisualStyleBackColor = true;
+            // 
+            // button39
+            // 
+            this.button39.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button39.Location = new System.Drawing.Point(252, 43);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(37, 24);
+            this.button39.TabIndex = 29;
+            this.button39.Text = "写";
+            this.button39.UseVisualStyleBackColor = true;
+            // 
+            // button38
+            // 
+            this.button38.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button38.Location = new System.Drawing.Point(252, 6);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(37, 24);
+            this.button38.TabIndex = 23;
+            this.button38.Text = "写";
+            this.button38.UseVisualStyleBackColor = true;
+            // 
+            // button35
+            // 
+            this.button35.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button35.Location = new System.Drawing.Point(205, 6);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(37, 24);
+            this.button35.TabIndex = 23;
+            this.button35.Text = "读";
+            this.button35.UseVisualStyleBackColor = true;
+            // 
+            // textBox19
+            // 
+            this.textBox19.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox19.Location = new System.Drawing.Point(135, 79);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(61, 27);
+            this.textBox19.TabIndex = 26;
+            // 
+            // textBox18
+            // 
+            this.textBox18.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox18.Location = new System.Drawing.Point(135, 5);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(61, 27);
+            this.textBox18.TabIndex = 24;
+            // 
+            // label18
+            // 
+            this.label18.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(3, 8);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(126, 20);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "充电限流系数(%):";
+            // 
+            // label19
+            // 
+            this.label19.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(3, 45);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(73, 20);
+            this.label19.TabIndex = 1;
+            this.label19.Text = "温补使能:";
+            // 
+            // label20
+            // 
+            this.label20.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(3, 82);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(73, 20);
+            this.label20.TabIndex = 2;
+            this.label20.Text = "温补系数:";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(157, 47);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(18, 17);
+            this.checkBox1.TabIndex = 25;
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // button36
+            // 
+            this.button36.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button36.Location = new System.Drawing.Point(205, 43);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(37, 24);
+            this.button36.TabIndex = 27;
+            this.button36.Text = "读";
+            this.button36.UseVisualStyleBackColor = true;
+            // 
+            // button37
+            // 
+            this.button37.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button37.Location = new System.Drawing.Point(205, 80);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(37, 24);
+            this.button37.TabIndex = 28;
+            this.button37.Text = "读";
+            this.button37.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel1
             // 
@@ -915,61 +1060,78 @@ namespace WinFormsApp1
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // label18
+            // checkBox2
             // 
-            this.label18.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(3, 5);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(126, 20);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "充电限流系数(%):";
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(517, 283);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(18, 17);
+            this.checkBox2.TabIndex = 2;
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
-            // label19
+            // label22
             // 
-            this.label19.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(3, 35);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(73, 20);
-            this.label19.TabIndex = 1;
-            this.label19.Text = "温补使能:";
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(0, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(62, 20);
+            this.label22.TabIndex = 22;
+            this.label22.Text = "label22";
             // 
-            // label20
+            // label21
             // 
-            this.label20.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(3, 66);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(73, 20);
-            this.label20.TabIndex = 2;
-            this.label20.Text = "温补系数:";
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(363, 281);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(73, 20);
+            this.label21.TabIndex = 3;
+            this.label21.Text = "手动补充:";
             // 
-            // textBox18
+            // button41
             // 
-            this.textBox18.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox18.Location = new System.Drawing.Point(135, 3);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(61, 27);
-            this.textBox18.TabIndex = 24;
+            this.button41.Location = new System.Drawing.Point(612, 274);
+            this.button41.Name = "button41";
+            this.button41.Size = new System.Drawing.Size(37, 29);
+            this.button41.TabIndex = 4;
+            this.button41.Text = "写";
+            this.button41.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // button42
             // 
-            this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(157, 36);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(18, 17);
-            this.checkBox1.TabIndex = 25;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.button42.Location = new System.Drawing.Point(612, 309);
+            this.button42.Name = "button42";
+            this.button42.Size = new System.Drawing.Size(37, 29);
+            this.button42.TabIndex = 7;
+            this.button42.Text = "写";
+            this.button42.UseVisualStyleBackColor = true;
             // 
-            // textBox19
+            // label23
             // 
-            this.textBox19.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox19.Location = new System.Drawing.Point(135, 63);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(61, 27);
-            this.textBox19.TabIndex = 26;
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(363, 316);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(73, 20);
+            this.label23.TabIndex = 6;
+            this.label23.Text = "定期补充:";
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(517, 318);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(18, 17);
+            this.checkBox3.TabIndex = 5;
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // button43
+            // 
+            this.button43.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button43.Location = new System.Drawing.Point(565, 277);
+            this.button43.Name = "button43";
+            this.button43.Size = new System.Drawing.Size(37, 24);
+            this.button43.TabIndex = 29;
+            this.button43.Text = "读";
+            this.button43.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -977,17 +1139,20 @@ namespace WinFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1213, 715);
+            this.Controls.Add(this.label22);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "Form1";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1072,6 +1237,20 @@ namespace WinFormsApp1
         private System.Windows.Forms.TextBox textBox19;
         private System.Windows.Forms.TextBox textBox18;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button button40;
+        private System.Windows.Forms.Button button39;
+        private System.Windows.Forms.Button button38;
+        private System.Windows.Forms.Button button35;
+        private System.Windows.Forms.Button button36;
+        private System.Windows.Forms.Button button37;
+        private System.Windows.Forms.Button button43;
+        private System.Windows.Forms.Button button42;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.Button button41;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.Label label22;
     }
 }
 
