@@ -48,6 +48,7 @@ namespace WinFormsApp1
             this.label17 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.button34 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
@@ -101,8 +102,12 @@ namespace WinFormsApp1
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -286,19 +291,37 @@ namespace WinFormsApp1
             this.tabControl1.Location = new System.Drawing.Point(22, 111);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(381, 592);
+            this.tabControl1.Size = new System.Drawing.Size(740, 592);
             this.tabControl1.TabIndex = 21;
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.tableLayoutPanel3);
             this.tabPage1.Controls.Add(this.tableLayoutPanel1);
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(373, 559);
+            this.tabPage1.Size = new System.Drawing.Size(732, 559);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 2;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.2F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 46.8F));
+            this.tableLayoutPanel3.Controls.Add(this.label18, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label19, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.label20, 0, 2);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(360, 23);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 3;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(250, 125);
+            this.tableLayoutPanel3.TabIndex = 1;
             // 
             // tableLayoutPanel1
             // 
@@ -395,13 +418,13 @@ namespace WinFormsApp1
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882352F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882352F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882352F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(325, 529);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(310, 529);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // button34
             // 
             this.button34.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button34.Location = new System.Drawing.Point(278, 500);
+            this.button34.Location = new System.Drawing.Point(267, 500);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(37, 25);
             this.button34.TabIndex = 71;
@@ -411,7 +434,7 @@ namespace WinFormsApp1
             // button33
             // 
             this.button33.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button33.Location = new System.Drawing.Point(278, 468);
+            this.button33.Location = new System.Drawing.Point(267, 468);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(37, 25);
             this.button33.TabIndex = 70;
@@ -421,7 +444,7 @@ namespace WinFormsApp1
             // button32
             // 
             this.button32.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button32.Location = new System.Drawing.Point(278, 437);
+            this.button32.Location = new System.Drawing.Point(267, 437);
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(37, 25);
             this.button32.TabIndex = 69;
@@ -431,7 +454,7 @@ namespace WinFormsApp1
             // button31
             // 
             this.button31.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button31.Location = new System.Drawing.Point(278, 406);
+            this.button31.Location = new System.Drawing.Point(267, 406);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(37, 25);
             this.button31.TabIndex = 68;
@@ -441,7 +464,7 @@ namespace WinFormsApp1
             // button30
             // 
             this.button30.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button30.Location = new System.Drawing.Point(278, 375);
+            this.button30.Location = new System.Drawing.Point(267, 375);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(37, 25);
             this.button30.TabIndex = 67;
@@ -451,7 +474,7 @@ namespace WinFormsApp1
             // button29
             // 
             this.button29.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button29.Location = new System.Drawing.Point(278, 344);
+            this.button29.Location = new System.Drawing.Point(267, 344);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(37, 25);
             this.button29.TabIndex = 66;
@@ -461,7 +484,7 @@ namespace WinFormsApp1
             // button28
             // 
             this.button28.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button28.Location = new System.Drawing.Point(278, 313);
+            this.button28.Location = new System.Drawing.Point(267, 313);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(37, 25);
             this.button28.TabIndex = 65;
@@ -471,7 +494,7 @@ namespace WinFormsApp1
             // button27
             // 
             this.button27.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button27.Location = new System.Drawing.Point(278, 282);
+            this.button27.Location = new System.Drawing.Point(267, 282);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(37, 25);
             this.button27.TabIndex = 64;
@@ -481,7 +504,7 @@ namespace WinFormsApp1
             // button26
             // 
             this.button26.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button26.Location = new System.Drawing.Point(278, 251);
+            this.button26.Location = new System.Drawing.Point(267, 251);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(37, 25);
             this.button26.TabIndex = 63;
@@ -491,7 +514,7 @@ namespace WinFormsApp1
             // button25
             // 
             this.button25.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button25.Location = new System.Drawing.Point(278, 220);
+            this.button25.Location = new System.Drawing.Point(267, 220);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(37, 25);
             this.button25.TabIndex = 62;
@@ -501,7 +524,7 @@ namespace WinFormsApp1
             // button24
             // 
             this.button24.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button24.Location = new System.Drawing.Point(278, 189);
+            this.button24.Location = new System.Drawing.Point(267, 189);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(37, 25);
             this.button24.TabIndex = 61;
@@ -511,7 +534,7 @@ namespace WinFormsApp1
             // button23
             // 
             this.button23.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button23.Location = new System.Drawing.Point(278, 158);
+            this.button23.Location = new System.Drawing.Point(267, 158);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(37, 25);
             this.button23.TabIndex = 60;
@@ -521,7 +544,7 @@ namespace WinFormsApp1
             // button22
             // 
             this.button22.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button22.Location = new System.Drawing.Point(278, 127);
+            this.button22.Location = new System.Drawing.Point(267, 127);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(37, 25);
             this.button22.TabIndex = 59;
@@ -531,7 +554,7 @@ namespace WinFormsApp1
             // button21
             // 
             this.button21.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button21.Location = new System.Drawing.Point(278, 96);
+            this.button21.Location = new System.Drawing.Point(267, 96);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(37, 25);
             this.button21.TabIndex = 58;
@@ -541,7 +564,7 @@ namespace WinFormsApp1
             // button20
             // 
             this.button20.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button20.Location = new System.Drawing.Point(278, 65);
+            this.button20.Location = new System.Drawing.Point(267, 65);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(37, 25);
             this.button20.TabIndex = 57;
@@ -551,7 +574,7 @@ namespace WinFormsApp1
             // button19
             // 
             this.button19.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button19.Location = new System.Drawing.Point(278, 34);
+            this.button19.Location = new System.Drawing.Point(267, 34);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(37, 25);
             this.button19.TabIndex = 56;
@@ -561,7 +584,7 @@ namespace WinFormsApp1
             // button18
             // 
             this.button18.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button18.Location = new System.Drawing.Point(278, 3);
+            this.button18.Location = new System.Drawing.Point(267, 3);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(37, 25);
             this.button18.TabIndex = 22;
@@ -571,7 +594,7 @@ namespace WinFormsApp1
             // button15
             // 
             this.button15.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button15.Location = new System.Drawing.Point(222, 406);
+            this.button15.Location = new System.Drawing.Point(218, 406);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(37, 25);
             this.button15.TabIndex = 53;
@@ -581,7 +604,7 @@ namespace WinFormsApp1
             // button14
             // 
             this.button14.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button14.Location = new System.Drawing.Point(222, 375);
+            this.button14.Location = new System.Drawing.Point(218, 375);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(37, 25);
             this.button14.TabIndex = 52;
@@ -591,7 +614,7 @@ namespace WinFormsApp1
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Location = new System.Drawing.Point(222, 3);
+            this.button1.Location = new System.Drawing.Point(218, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(37, 25);
             this.button1.TabIndex = 22;
@@ -736,7 +759,7 @@ namespace WinFormsApp1
             // button2
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.Location = new System.Drawing.Point(222, 34);
+            this.button2.Location = new System.Drawing.Point(218, 34);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(37, 25);
             this.button2.TabIndex = 40;
@@ -746,7 +769,7 @@ namespace WinFormsApp1
             // button3
             // 
             this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button3.Location = new System.Drawing.Point(222, 65);
+            this.button3.Location = new System.Drawing.Point(218, 65);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(37, 25);
             this.button3.TabIndex = 41;
@@ -756,7 +779,7 @@ namespace WinFormsApp1
             // button4
             // 
             this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button4.Location = new System.Drawing.Point(222, 96);
+            this.button4.Location = new System.Drawing.Point(218, 96);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(37, 25);
             this.button4.TabIndex = 42;
@@ -766,7 +789,7 @@ namespace WinFormsApp1
             // button5
             // 
             this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button5.Location = new System.Drawing.Point(222, 127);
+            this.button5.Location = new System.Drawing.Point(218, 127);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(37, 25);
             this.button5.TabIndex = 43;
@@ -776,7 +799,7 @@ namespace WinFormsApp1
             // button6
             // 
             this.button6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button6.Location = new System.Drawing.Point(222, 158);
+            this.button6.Location = new System.Drawing.Point(218, 158);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(37, 25);
             this.button6.TabIndex = 44;
@@ -786,7 +809,7 @@ namespace WinFormsApp1
             // button7
             // 
             this.button7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button7.Location = new System.Drawing.Point(222, 189);
+            this.button7.Location = new System.Drawing.Point(218, 189);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(37, 25);
             this.button7.TabIndex = 45;
@@ -797,7 +820,7 @@ namespace WinFormsApp1
             // button8
             // 
             this.button8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button8.Location = new System.Drawing.Point(222, 220);
+            this.button8.Location = new System.Drawing.Point(218, 220);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(37, 25);
             this.button8.TabIndex = 46;
@@ -807,7 +830,7 @@ namespace WinFormsApp1
             // button9
             // 
             this.button9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button9.Location = new System.Drawing.Point(222, 251);
+            this.button9.Location = new System.Drawing.Point(218, 251);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(37, 25);
             this.button9.TabIndex = 47;
@@ -817,7 +840,7 @@ namespace WinFormsApp1
             // button10
             // 
             this.button10.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button10.Location = new System.Drawing.Point(222, 282);
+            this.button10.Location = new System.Drawing.Point(218, 282);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(37, 25);
             this.button10.TabIndex = 48;
@@ -827,7 +850,7 @@ namespace WinFormsApp1
             // button11
             // 
             this.button11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button11.Location = new System.Drawing.Point(222, 313);
+            this.button11.Location = new System.Drawing.Point(218, 313);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(37, 25);
             this.button11.TabIndex = 49;
@@ -837,7 +860,7 @@ namespace WinFormsApp1
             // button12
             // 
             this.button12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button12.Location = new System.Drawing.Point(222, 344);
+            this.button12.Location = new System.Drawing.Point(218, 344);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(37, 25);
             this.button12.TabIndex = 50;
@@ -847,7 +870,7 @@ namespace WinFormsApp1
             // button13
             // 
             this.button13.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button13.Location = new System.Drawing.Point(222, 437);
+            this.button13.Location = new System.Drawing.Point(218, 437);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(37, 25);
             this.button13.TabIndex = 51;
@@ -857,7 +880,7 @@ namespace WinFormsApp1
             // button16
             // 
             this.button16.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button16.Location = new System.Drawing.Point(222, 468);
+            this.button16.Location = new System.Drawing.Point(218, 468);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(37, 25);
             this.button16.TabIndex = 54;
@@ -867,7 +890,7 @@ namespace WinFormsApp1
             // button17
             // 
             this.button17.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button17.Location = new System.Drawing.Point(222, 500);
+            this.button17.Location = new System.Drawing.Point(218, 500);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(37, 25);
             this.button17.TabIndex = 55;
@@ -879,10 +902,37 @@ namespace WinFormsApp1
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(373, 559);
+            this.tabPage2.Size = new System.Drawing.Size(732, 559);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(3, 0);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(126, 20);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "充电限流系数(%):";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(3, 47);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(73, 20);
+            this.label19.TabIndex = 1;
+            this.label19.Text = "温补使能:";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(3, 94);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(73, 20);
+            this.label20.TabIndex = 2;
+            this.label20.Text = "温补系数:";
             // 
             // Form1
             // 
@@ -896,6 +946,8 @@ namespace WinFormsApp1
             this.Text = "Form1";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
@@ -976,6 +1028,10 @@ namespace WinFormsApp1
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
     }
 }
 
