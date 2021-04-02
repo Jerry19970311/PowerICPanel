@@ -48,19 +48,20 @@ namespace WinFormsApp1
             this.label17 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-            this.splitContainer1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(53, 50);
+            this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(123, 20);
             this.label1.TabIndex = 2;
@@ -70,7 +71,7 @@ namespace WinFormsApp1
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(53, 70);
+            this.label2.Location = new System.Drawing.Point(3, 31);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(123, 20);
             this.label2.TabIndex = 3;
@@ -80,7 +81,7 @@ namespace WinFormsApp1
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(39, 121);
+            this.label3.Location = new System.Drawing.Point(3, 62);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(123, 20);
             this.label3.TabIndex = 4;
@@ -89,7 +90,7 @@ namespace WinFormsApp1
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(39, 150);
+            this.label4.Location = new System.Drawing.Point(3, 93);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(124, 20);
             this.label4.TabIndex = 5;
@@ -98,7 +99,7 @@ namespace WinFormsApp1
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(39, 181);
+            this.label5.Location = new System.Drawing.Point(3, 124);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(137, 20);
             this.label5.TabIndex = 6;
@@ -107,7 +108,7 @@ namespace WinFormsApp1
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(39, 215);
+            this.label6.Location = new System.Drawing.Point(3, 155);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(124, 20);
             this.label6.TabIndex = 7;
@@ -116,7 +117,7 @@ namespace WinFormsApp1
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(39, 246);
+            this.label7.Location = new System.Drawing.Point(3, 186);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(124, 20);
             this.label7.TabIndex = 8;
@@ -125,7 +126,7 @@ namespace WinFormsApp1
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(39, 282);
+            this.label8.Location = new System.Drawing.Point(3, 217);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(123, 20);
             this.label8.TabIndex = 9;
@@ -134,7 +135,7 @@ namespace WinFormsApp1
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(39, 315);
+            this.label9.Location = new System.Drawing.Point(3, 248);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(123, 20);
             this.label9.TabIndex = 10;
@@ -143,7 +144,7 @@ namespace WinFormsApp1
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(39, 349);
+            this.label10.Location = new System.Drawing.Point(3, 279);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(123, 20);
             this.label10.TabIndex = 11;
@@ -152,7 +153,7 @@ namespace WinFormsApp1
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(39, 417);
+            this.label11.Location = new System.Drawing.Point(3, 341);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(123, 20);
             this.label11.TabIndex = 12;
@@ -161,7 +162,7 @@ namespace WinFormsApp1
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(39, 380);
+            this.label12.Location = new System.Drawing.Point(3, 310);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(123, 20);
             this.label12.TabIndex = 13;
@@ -170,7 +171,7 @@ namespace WinFormsApp1
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(39, 448);
+            this.label13.Location = new System.Drawing.Point(3, 372);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(123, 20);
             this.label13.TabIndex = 14;
@@ -179,16 +180,17 @@ namespace WinFormsApp1
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(39, 483);
+            this.label14.Location = new System.Drawing.Point(3, 403);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(123, 20);
             this.label14.TabIndex = 15;
             this.label14.Text = "浮充电压设定(V):";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(39, 513);
+            this.label15.Location = new System.Drawing.Point(3, 434);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(123, 20);
             this.label15.TabIndex = 16;
@@ -197,7 +199,7 @@ namespace WinFormsApp1
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(39, 553);
+            this.label16.Location = new System.Drawing.Point(3, 465);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(111, 20);
             this.label16.TabIndex = 17;
@@ -206,7 +208,7 @@ namespace WinFormsApp1
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(39, 587);
+            this.label17.Location = new System.Drawing.Point(3, 496);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(111, 20);
             this.label17.TabIndex = 18;
@@ -216,10 +218,10 @@ namespace WinFormsApp1
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(225, 41);
+            this.tabControl1.Location = new System.Drawing.Point(22, 111);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(381, 595);
+            this.tabControl1.Size = new System.Drawing.Size(381, 581);
             this.tabControl1.TabIndex = 21;
             // 
             // tabPage1
@@ -228,39 +230,37 @@ namespace WinFormsApp1
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(373, 562);
+            this.tabPage1.Size = new System.Drawing.Size(373, 548);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 29);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(373, 562);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // splitContainer1
-            // 
-            this.splitContainer1.Location = new System.Drawing.Point(761, 282);
-            this.splitContainer1.Name = "splitContainer1";
-            // 
-            // splitContainer1.Panel1
-            // 
-            this.splitContainer1.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel1_Paint);
-            this.splitContainer1.Size = new System.Drawing.Size(188, 125);
-            this.splitContainer1.SplitterDistance = 62;
-            this.splitContainer1.TabIndex = 22;
-            // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(23, 25);
+            this.tableLayoutPanel1.ColumnCount = 4;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 146F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 42F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 92F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label4, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.textBox1, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label17, 0, 16);
+            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label16, 0, 15);
+            this.tableLayoutPanel1.Controls.Add(this.label3, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label15, 0, 14);
+            this.tableLayoutPanel1.Controls.Add(this.label5, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.label14, 0, 13);
+            this.tableLayoutPanel1.Controls.Add(this.label6, 0, 5);
+            this.tableLayoutPanel1.Controls.Add(this.label13, 0, 12);
+            this.tableLayoutPanel1.Controls.Add(this.label7, 0, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label11, 0, 11);
+            this.tableLayoutPanel1.Controls.Add(this.label12, 0, 10);
+            this.tableLayoutPanel1.Controls.Add(this.label8, 0, 7);
+            this.tableLayoutPanel1.Controls.Add(this.label9, 0, 8);
+            this.tableLayoutPanel1.Controls.Add(this.label10, 0, 9);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 23);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 17;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
@@ -280,41 +280,56 @@ namespace WinFormsApp1
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(250, 501);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(325, 529);
             this.tableLayoutPanel1.TabIndex = 0;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(149, 3);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(61, 27);
+            this.textBox1.TabIndex = 23;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(373, 548);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(541, 196);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(61, 27);
+            this.textBox2.TabIndex = 24;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(608, 404);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(61, 27);
+            this.textBox3.TabIndex = 25;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1171, 629);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.splitContainer1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label4);
+            this.ClientSize = new System.Drawing.Size(1213, 715);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "Form1";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
-            this.splitContainer1.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -342,8 +357,10 @@ namespace WinFormsApp1
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
 
