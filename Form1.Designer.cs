@@ -105,6 +105,9 @@ namespace WinFormsApp1
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -308,19 +311,24 @@ namespace WinFormsApp1
             // 
             // tableLayoutPanel3
             // 
-            this.tableLayoutPanel3.ColumnCount = 2;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.2F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 46.8F));
+            this.tableLayoutPanel3.ColumnCount = 4;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 132F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 68F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Controls.Add(this.textBox19, 1, 2);
+            this.tableLayoutPanel3.Controls.Add(this.textBox18, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.label18, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.label19, 0, 1);
             this.tableLayoutPanel3.Controls.Add(this.label20, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.checkBox1, 1, 1);
             this.tableLayoutPanel3.Location = new System.Drawing.Point(360, 23);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 3;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(250, 125);
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(300, 92);
             this.tableLayoutPanel3.TabIndex = 1;
             // 
             // tableLayoutPanel1
@@ -909,8 +917,9 @@ namespace WinFormsApp1
             // 
             // label18
             // 
+            this.label18.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(3, 0);
+            this.label18.Location = new System.Drawing.Point(3, 5);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(126, 20);
             this.label18.TabIndex = 0;
@@ -918,8 +927,9 @@ namespace WinFormsApp1
             // 
             // label19
             // 
+            this.label19.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(3, 47);
+            this.label19.Location = new System.Drawing.Point(3, 35);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(73, 20);
             this.label19.TabIndex = 1;
@@ -927,12 +937,39 @@ namespace WinFormsApp1
             // 
             // label20
             // 
+            this.label20.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(3, 94);
+            this.label20.Location = new System.Drawing.Point(3, 66);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(73, 20);
             this.label20.TabIndex = 2;
             this.label20.Text = "温补系数:";
+            // 
+            // textBox18
+            // 
+            this.textBox18.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox18.Location = new System.Drawing.Point(135, 3);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(61, 27);
+            this.textBox18.TabIndex = 24;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(157, 36);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(18, 17);
+            this.checkBox1.TabIndex = 25;
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // textBox19
+            // 
+            this.textBox19.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox19.Location = new System.Drawing.Point(135, 63);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(61, 27);
+            this.textBox19.TabIndex = 26;
             // 
             // Form1
             // 
@@ -1032,6 +1069,9 @@ namespace WinFormsApp1
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
